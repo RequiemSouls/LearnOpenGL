@@ -4,5 +4,5 @@ project (LearnOpenGL)
 include_directories(/usr/local/include ./include)
 link_directories(/usr/local/lib)
 
-add_executable(learnOpenGL main.cpp src/glad.c)
+add_executable(learnOpenGL main.cpp src/glad.c src/render.cpp)
 target_link_libraries(learnOpenGL glfw)
